@@ -1,0 +1,62 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  /* Use flexbox for better alignment and control */
+  display: inline-block;
+  margin: 0 20px; /* Add some space between the dice */
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: "Montserrat", cursive;
+}
+
+img {
+  width: 80%;
+}
+
+/* New CSS for the button */
+.roll-button {
+  display: block; /* Make the button a block-level element */
+  margin: 40px auto; /* Center the button and add top/bottom margin */
+  padding: 15px 30px; /* Add padding for a larger click area */
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  background-color: #4ECCA3; /* Button color */
+  color: #232931; /* Text color */
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer; /* Change cursor to a pointer on hover */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.roll-button:hover {
+  background-color: #3f9b84; /* Darker green on hover */
+  transform: translateY(-2px); /* Lift the button slightly */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.roll-button:active {
+  transform: translateY(0); /* Return to original position on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
